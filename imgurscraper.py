@@ -40,7 +40,7 @@ for i in input_list:
 	else:
 		os.chdir(i)
 		downloadItems(i, timeperiod)
-	os.chdir('../')
+	os.chdir('../') #brings us back to the parent directory before starting on the next subreddit
 	
 	
 		
